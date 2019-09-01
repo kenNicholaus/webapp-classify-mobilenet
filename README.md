@@ -29,14 +29,14 @@ $ python classify.py
 ### 4. Check http://127.0.0.1:5000/ or http://localhost:5000
 
 
-###4. Load Image..
+### 5. Load Image..
 -browse and load image
 
 
-###5. Click predict
+### 6. Click predict
 
 
-###6. Result will display the top prediction for the classified image with its probability
+### 7. Result will display the top prediction for the classified image with its probability
 
 
 
