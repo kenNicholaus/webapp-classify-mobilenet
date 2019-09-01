@@ -6,6 +6,7 @@
 $ git clone https://github.com/kenNicholaus/webapp-classify-mobilenet.git
 
 
+
 ### 2. Install Requiremnents
 ```shell
 $ pip install -r requirements.txt
@@ -51,9 +52,3 @@ $ docker build -t webapp-classify-mobilenet .
 $ docker run -d -p 5000:5000 webapp-classify-mobilenet 
 
 ------------------
-
-
-
-Check Siraj's ["How to Deploy a Keras Model to Production"](https://youtu.be/f6Bf3gl4hWY) video. The corresponding [repo](https://github.com/llSourcell/how_to_deploy_a_keras_model_to_production).
-
-[Building a simple Keras + deep learning REST API](https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html)
