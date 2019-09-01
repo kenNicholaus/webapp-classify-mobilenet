@@ -60,10 +60,8 @@ def upload():
         # Make prediction
         preds = model_predict(file_path, model)
 
-        # Process your result for human
-        # pred_class = preds.argmax(axis=-1)  # Simple argmax
+        # Process your result
         pred_class = decode_predictions(preds, top=1)
-        #pred_class = decode_predictions(preds, top=1)   # ImageNet Decode
         result = str(pred_class[0][0][1]+', probability: '+str((pred_class[0][0][2]).round(3))+'%')  # Convert to string
         print (result)
         
